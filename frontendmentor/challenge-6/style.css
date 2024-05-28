@@ -1,0 +1,90 @@
+/* NÃO FINALIZADO */
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --very-dark-blue: hsl(243, 87%, 12%);
+    --desaturated-blue: hsl(238, 22%, 44%);
+    --bright-blue: hsl(224, 93%, 58%);
+    --moderate-cyan: hsl(170, 45%, 43%);
+    --light-grayish-blue: hsl(240, 75%, 98%);
+    --light-gray: hsl(0, 0%, 75%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 5%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+.navegacao {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.644);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primeira__secao {
+    display: flex;
+    padding: 2% 0;
+    align-items: center;
+    gap: 100px;
+}
+
+.text__primeira__secao {
+    width: 50%;
+}
+
+.titulos {
+    font-family: 'Raleway', sans-serif;
+    font-size: 33px;
+}
+
+.imagem__primeira__secao {
+    width: 50%;
+}
+
+.paragrafos {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 2% 0;
+}
+
+.email {
+    font-family: 'Open Sans', sans-serif;
+    height: 30px;
+    width: 300px;
+    text-align-last: center;
+}
+
+.botao__started {
+    background-color: var(--bright-blue);
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Open Sans',sans-serif;
+    padding-top: 1.4%;
+    padding-bottom: 1.4%;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-left: 20px;
+    border-radius: 3px;
+    filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.384));
+}
+
+.segunda__secao {
+    background-color: var(--light-grayish-blue);
+}
