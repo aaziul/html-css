@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+:root {
+    --cor-sedans: hsl(31, 77%, 52%);
+    --cor-suvs: hsl(184, 100%, 22%);
+    --cor-luxury: hsl(179, 100%, 13%);
+    --cor-paragrafos: hsla(0, 0%, 100%, 0.75);
+    --cor-geral: hsl(0, 0%, 95%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--cor-geral);
+}
+
+.conteudo {
+    display: flex;
+    padding: 15% 20%;
+    justify-content: center;
+}
+
+.title {
+    color: var(--cor-geral);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 30px;
+    padding: 10% 0;
+    letter-spacing: 1px;
+}
+
+.paragrafo {
+    color: var(--cor-paragrafos);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    padding: 5% 0;
+}
+
+.icones {
+    padding: 5% 0;
+}
+
+.conteudo__sedans {
+    background-color: var(--cor-sedans);
+    padding: 5%;
+    line-height: 25px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.learn__sedans {
+    color: var(--cor-sedans);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+    background-color: var(--cor-geral);
+    padding: 5% 8%;
+    text-decoration: none;
+    border-radius: 20px
+}
+    
+
+.conteudo__suvs {
+    background-color: var(--cor-suvs);
+    padding: 5%;
+    line-height: 25px;
+}
+
+.learn__suvs {
+    color: var(--cor-suvs);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+    background-color: var(--cor-geral);
+    padding: 5% 8%;
+    text-decoration: none;
+    border-radius: 20px
+}
+
+.conteudo__luxury {
+    background-color: var(--cor-luxury);
+    padding: 5%;
+    line-height: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.learn__luxury {
+    color: var(--cor-luxury);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+    background-color: var(--cor-geral);
+    padding: 5% 8%;
+    text-decoration: none;
+    border-radius: 20px
+}
