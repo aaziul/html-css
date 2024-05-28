@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+:root {
+    --cor-fundo-body: hsl(233, 47%, 7%);
+    --cor-fundo-card: hsl(244, 38%, 16%);
+    --cor-texto-destaque: hsl(277, 64%, 61%);
+    --cor-titulo: hsl(0, 0%, 100%);
+    --cor-main-paragrafo: hsla(0, 0%, 100%, 0.75);
+    --cor-nomes-dados: hsla(0, 0%, 100%, 0.6);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 10% 15%;
+    background: var(--cor-fundo-body);
+}
+
+.conteudo {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.conteudo__texto {
+    background: var(--cor-fundo-card);
+    padding: 9% 7%;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+
+.texto__titulo {
+    font-family: 'Inter', sans-serif;
+    color: var(--cor-titulo);
+    font-weight: 700;
+}
+
+strong {
+    color: var(--cor-texto-destaque);
+}
+
+.texto__paragrafo {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cor-main-paragrafo);
+}
+
+.number {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    color: var(--cor-titulo);
+    font-size: 18;
+    padding: 2%;
+}
+
+.stats{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10px;
+    color: var(--cor-main-paragrafo);
+}
+
+.imagem {
+    width: 50%;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
+footer {
+    color: var(--cor-main-paragrafo);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-main-paragrafo);
+}
