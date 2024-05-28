@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&display=swap');
+
+:root {
+    --ciano: hsl(171, 66%, 44%);
+    --azul-claro: hsl(233, 100%, 69%);
+    --titulo: hsl(210, 10%, 33%);
+    --paragrafo: hsl(201, 11%, 66%);
+}
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.titulos {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    color: var(--titulo);
+    font-size: 25px;
+}
+
+.paragrafos {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    color: var(--paragrafo);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.cabecalho {
+    text-align: center;
+    padding: 60px;
+}
+
+.section1 {
+    text-align: center;
+    padding: 0 26%;
+}
+
+.download_ios {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: var(--ciano);
+    padding: 7px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.download_mac {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: var(--azul-claro);
+    padding: 7px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.section2 {
+    text-align: center;
+    padding: 10% 24%;
+}
+
+.section3 {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    padding-right: 23%;
+}
+
+.imagem_section3 {
+    width: 650px;
+    height: 503px;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.219));
+}
+
+h2 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    color: var(--titulo);
+    font-size: 22px;
+}
+
+.paragrafo_section3 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    color: var(--paragrafo);
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.section4 {
+    text-align: center;
+    padding: 10% 24%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+
+.imagem_section4 {
+    width: 805px;
+    height: 475px;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.178));
+}
+
+.section5 {
+    text-align: center;
+}
+
+.section6 {
+    display: flex;
+    gap: 50px;
+    padding: 5% 15%;
+    align-items: center; 
+    text-align: center;
+    justify-content: center;
+}
+
+.galeria_logos {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 6%;
+}
+
+.section7 {
+    text-align: center;
+    padding: 5% 24%;
+    padding-bottom: 10%;
+}
+
+.rodape {
+    display: flex;
+    gap: 60px;
+    padding: 2% 7%;
+    justify-content: baseline;
+    background-color: hsla(202, 11%, 66%, 0.164);
+    color: var(--titulo);
+}
+
+.logo_rodape{
+    width: 40px;
+    height: 40px;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: var(--titulo);
+    font-weight: 400;
+}
+
+a:hover {
+    color: var(--ciano);
+}
+
+button:hover{
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.178));
+}
+
+img:hover{fill: var(--ciano);}
