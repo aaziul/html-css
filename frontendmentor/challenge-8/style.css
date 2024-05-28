@@ -1,0 +1,122 @@
+/*NAO FINALIZADO*/
+
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --very-pale-cyan: hsl(193, 100%, 9%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(208, 11%, 55%);
+}
+
+* {
+    border: 0;
+    margin: 0;
+}
+
+
+.section1 {
+    background-image: url("/assets/bg-hero-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgba(173, 216, 230, 0.137);
+    align-content: center;
+    padding-bottom: 3%;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 3% 4%;
+    
+}
+
+.teste_gratuito {
+    padding: 10px 40px;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.24));
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid white;
+}
+
+.teste_gratuito:hover {
+    border: 1px solid var(--very-pale-cyan);
+    border-radius: 25px;
+    background-color: white;
+    color: var(--very-pale-cyan);
+    transition: 0.6s;
+    transform-origin: center;
+}
+
+.bloco1{
+    display: flex;
+    gap: 100px;
+    padding: 1% 4%;
+    width: 90%;
+    align-items: center;
+}
+
+.text_bloco1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mockups {
+    width: 50%;
+}
+
+.titulo_community {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.paragrafo_community {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.botao__started {
+    background-color: var(--pink);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    border-radius: 25px;
+    padding: 15px 20px;
+    width: 40%;
+    cursor: pointer;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.24));
+    border: 1px solid var(--pink);
+}
+
+.botao__started:hover{
+    border: 1px solid var(--pink);
+    border-radius: 25px;
+    background-color: white;
+    color: var(--pink);
+    transition: 0.6s;
+    transform-origin: center;
+}
+
+/* --------------------------------- */
+
+.grow_flowing_users {
+    display: flex;
+    flex-direction: column;
+}
+
+/* --------------------------------- */
+
+.section2 {
+    background-color: white;
+    border-radius: 20px;
+    height: 20px;
+}
