@@ -1,2 +1,2 @@
-# html-css
-Repositório com códigos realizados com HTML e CSS.
+<H1> html&css</H1>
+Repositório com projetos voltados ao front-end realizados durante estudos na área.
